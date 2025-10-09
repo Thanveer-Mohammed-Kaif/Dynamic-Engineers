@@ -249,6 +249,7 @@ nav {
   font-size: 1vw;
   padding: 25px 10px;
   font-family: "Instrument Sans", sans-serif;
+  font-weight: 600;
 }
 
 .d-btns button.btn-active {
@@ -914,6 +915,7 @@ model-viewer {
    font-size: 2vw;
     padding: 10px 5px;
     width: 30%;
+      font-weight: 600;
     border-radius: 10px;
     font-family: "Instrument Sans", sans-serif;
   }
@@ -1125,6 +1127,7 @@ model-viewer {
     padding: 10px 5px;
     width: 45%;
     border-radius: 10px;
+      font-weight: 600;
     font-family: "Instrument Sans", sans-serif;
   }
 
