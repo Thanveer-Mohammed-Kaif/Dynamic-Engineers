@@ -252,11 +252,17 @@ nav {
 }
 
 .d-btns button.btn-active {
-  background: #ffffff;
+    backface-visibility: hidden;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  background: darkgray;
+  border-radius: 0px;
+  border: 0px solid #72665f;
+  border-width: 0px 0px 4px 0px;
   border-radius: 10px;
-  color: black;
--webkit-box-shadow: 0px 3px 9px 4px rgba(0,0,0,0.78); 
-box-shadow: 0px 3px 9px 4px rgba(0,0,0,0.78);
+    color: #fff;
+  font-style: normal;
 }
 
 .model {
@@ -903,7 +909,7 @@ model-viewer {
     width: 90%;
   }
   .d-btns button {
-    border: 2px solid white;
+    border: 3px solid white;
     background-color: transparent;
    font-size: 2vw;
     padding: 10px 5px;
@@ -1118,7 +1124,6 @@ model-viewer {
    font-size: 3vw;
     padding: 10px 5px;
     width: 45%;
-    
     border-radius: 10px;
     font-family: "Instrument Sans", sans-serif;
   }
@@ -1319,6 +1324,4 @@ model-viewer {
     font-size: 3.5vw;
   }
 }
-
-
 
