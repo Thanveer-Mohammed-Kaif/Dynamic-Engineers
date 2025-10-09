@@ -256,7 +256,7 @@ nav {
   position: relative;
   cursor: pointer;
   display: inline-block;
-  background: darkgray;
+  background: #383838;
   border-radius: 0px;
   border: 0px solid #72665f;
   border-width: 0px 0px 4px 0px;
@@ -1119,7 +1119,7 @@ model-viewer {
     width: 90%;
   }
   .d-btns button {
-    border: 1px solid white;
+    border: 2px solid white;
     background-color: transparent;
    font-size: 3vw;
     padding: 10px 5px;
