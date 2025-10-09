@@ -55,11 +55,9 @@ document.addEventListener("DOMContentLoaded", function () {
         .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
         .join(" ");
       const newSrc = `./modal/glb/${formattedName}.glb`;
-      console.log("models",newSrc)
       modelViewer.setAttribute("src", newSrc);
       buttons.forEach((b) => b.classList.remove("btn-active"));
       btn.classList.add("btn-active");
-      
     });
   });
 });
